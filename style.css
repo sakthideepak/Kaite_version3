@@ -497,6 +497,7 @@ body {
     align-items: center;
     gap: 20px;
     text-align: left;
+    margin-bottom:20px
 }
 .tab-content img {
     width: 40%;
