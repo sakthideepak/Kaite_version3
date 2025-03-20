@@ -55,7 +55,7 @@ body {
   
   .navbar-brand{
     /* width:100px; */
-/*     height:70px; */
+    height:70px;
 
   }
   @media(max-width:600px) {
