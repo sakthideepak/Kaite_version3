@@ -406,7 +406,7 @@ body {
             width: 100%;
         }
       }
-      @media (max-width: 350px) {
+      @media (max-width: 370px) {
         .offer-section {
             flex-direction: column;
         }
