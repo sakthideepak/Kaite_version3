@@ -454,6 +454,7 @@ p {
         }
         .description{
           font-size:small;
+          line-height:1;
         }
       }
 
