@@ -428,11 +428,11 @@ p {
       
    
       .offer-box.one {
-        background-image: url('for_kids.jpeg'); 
+        background-image: url('what_we_offer_kids.jpeg'); 
       }
       
       .offer-box.two {
-        background-image: url('for_adults.jpeg'); 
+        background-image: url('what_we_offer_adults.jpeg'); 
       }
       
       /* Responsive Design */
@@ -467,7 +467,7 @@ p {
       .why_us{
         width:100%;
         height:auto;
-        background: url('Circle.png') no-repeat center center/cover;
+        background: url('whyus_bg_img.png') no-repeat center center/cover;
 
 
     
@@ -542,7 +542,7 @@ p {
 
       @media (max-width: 690px) {
       .why_us{
-        background:url("Circle.png");
+        background:url("whyus_bg_img.png");
       }
     }
 
@@ -551,7 +551,7 @@ p {
 .online {
     width: 100%;
     height: 350px;
-    background-image: url('background.jpg');
+    background-image: url('Join_now_img.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -708,7 +708,7 @@ p {
 
   /* courses */
   .Courses {
-    background: url("poligan.png") no-repeat center center/cover;
+    background: url("courses_bg.png") no-repeat center center/cover;
     padding: 50px 20px;
     text-align: center;
     
@@ -865,7 +865,7 @@ p {
 
 /* Our service */
 .services-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('photo/BG.jpg') no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('#') no-repeat center center/cover;
   padding: 50px 20px;
   text-align: center;
   color: #fff;
