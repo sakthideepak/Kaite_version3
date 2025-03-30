@@ -454,8 +454,11 @@ p {
         }
         .description{
           font-size:small;
-          line-height:1;
+          
         }
+        .description{
+           line-height:1;
+            font-size:0;
       }
 
       /* WHy us */
