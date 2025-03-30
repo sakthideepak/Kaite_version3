@@ -191,7 +191,7 @@ body {
         }
         @media (max-width: 576px) {
             #heroCarousel .carousel-item {
-                height: 40vh;
+                height: 60vh;
             }
             .carousel-caption {
                 width: 80%;
