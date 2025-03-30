@@ -456,9 +456,9 @@ p {
           font-size:small;
           
         }
-        .description{
+        .description p{
            line-height:1;
-            font-size:0;
+           font-size:10px;
       }
 
       /* WHy us */
