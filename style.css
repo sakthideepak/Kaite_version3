@@ -214,6 +214,9 @@ body {
             }
         }
         @media (max-width: 350px) {
+             #heroCarousel .carousel-item {
+                height: 40vh;
+            }
             .carousel-caption {
                 left: 5%;
                 transform: none;
