@@ -1,30 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
 body {
-    font-family: 'Roboto';
+    font-family:'Roboto';
     margin: 0;
     padding: 0;
-    /* background-color:#004D40; */
-    /* background-color:#baeffe; */
-    /* background-color:#E3F2FD; */
-    /* background-color:#F0F2F5; */
-      /* background-color: #1a214b; */
-      background-color:  #135a91;
-  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('photo/BG.jpg') no-repeat center center/cover; */
-
-    
-  
+    background-color: #f8f9fa;
     color: #333;
 }
-
 h1, h2, h3, h4, h5, p {
   font-family:inherit; 
-  text-align:center
 }
 
 h1 {
   font-weight: 700; /* Bold for emphasis */
-  font-size: 2rem;
+  font-size:2rem;
 }
 
 h2 {
@@ -52,15 +40,9 @@ p {
   font-size: 1rem;
   line-height: 1.6;
 }
-
-
-
-
-*{
-  overflow-x: hidden; 
-  }
-  
-
+ *{
+   overflow-x: hidden; 
+} 
 ::-webkit-scrollbar {
     display: none;
   }
@@ -85,7 +67,7 @@ p {
   
  
   .navbar-nav .nav-link:hover {
-    background: linear-gradient(45deg, #007bff, #00c6ff); /* Blue gradient  */
+    background: linear-gradient(45deg, #007bff, #00c6ff); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -141,6 +123,45 @@ p {
 
 }
 
+/*  #heroCarousel .carousel-item {
+    height: 100vh; 
+  }
+
+  
+  
+  
+  #heroCarousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .carousel-caption {
+    font-size: 2rem;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 992px) {
+    #heroCarousel .carousel-item {
+        height: 80vh;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #heroCarousel .carousel-item {
+        height: 70vh; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #heroCarousel .carousel-item {
+        height: 60vh;
+    }
+  }
+ */
   #heroCarousel .carousel-item {
             height: 80vh;
             position: relative;
@@ -335,24 +356,21 @@ color:whitesmoke;
 }
 
 }
-
-
- 
      /* About Section */
 
   #about {
-    /* background-color: #9e9ff7; */
+    background-color: #eee;
     padding: 50px 20px;
     text-align:justify;
 }
 
 .about-section {
     display: flex;
-    align-items: center;
+    align-items:justify;
     max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
-    background:rgb(233, 233, 233);
+    background: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -370,8 +388,9 @@ color:whitesmoke;
 .about-right h2 {
     color: #333;
     margin-bottom: 15px;
-    /* font-weight: 700;  */
-    /* letter-spacing: 1px; */
+/*     font-family: 'Poppins', sans-serif; */
+/*     font-weight: 700;  */
+/*     letter-spacing: 1px; */
 }
 .about-right p {
     color: #111111;
@@ -383,15 +402,15 @@ color:whitesmoke;
 .about-item {
     display: flex;
     align-items:center;
-  
+
 }
 .about-item i{
-    /* font-size:20px; */
+    font-size:20px;
 }
 .about-item p{
-    /* font-family: 'Open Sans', sans-serif; */
-    /* font-size:16px; */
-    /* line-height: 1.6; */
+/*     font-family: 'Open Sans', sans-serif; */
+/*     font-size:16px; */
+/*     line-height: 1.6; */
 }
 .about-item img {
     width: 40px;
@@ -428,15 +447,16 @@ color:whitesmoke;
         border-color: #333;
       }
 
-/* .offering h1{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700; 
-    letter-spacing: 1px;
-} */
+.offering h2{
+/*     font-family: 'Poppins', sans-serif; */
+/*     font-weight: 700; /* Bold */ */
+/*     letter-spacing: 1px; */
+}
 
-.offering h1{
+
+
+.offering h2{
      text-align:center;
-     color: white;
 }
       .offer-section {
         display: flex;
@@ -446,9 +466,6 @@ color:whitesmoke;
         padding: 50px;
         max-width: 1200px;
         margin: auto;
-        background-color: rgb(233, 233, 233);
-        border-radius:5px;
-        margin-bottom:10px;
       }
       
       .offer-box {
@@ -457,7 +474,7 @@ color:whitesmoke;
         height: 300px;
         background-size: cover;
         background-position: center;
-        color: rgb(233, 233, 233);
+        color: white;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -502,11 +519,11 @@ color:whitesmoke;
       
    
       .offer-box.one {
-        background-image: url('what_we_offer_kids.jpeg'); /* Replace with your image */
+        background-image: url('what_we_offer_kids.jpeg'); 
       }
       
       .offer-box.two {
-        background-image: url('what_we_offer_adults.jpeg'); /* Replace with your image */
+        background-image: url('what_we_offer_adults.jpeg'); 
       }
       
       /* Responsive Design */
@@ -518,7 +535,6 @@ color:whitesmoke;
             width: 100%;
         }
       }
-
       @media (max-width: 370px) {
         .offer-section {
             flex-direction: column;
@@ -529,19 +545,12 @@ color:whitesmoke;
         }
         .description{
           font-size:small;
+          
         }
+        .description p{
+           line-height:1;
+           font-size:10px;
       }
-      @media (max-width: 350px) {
-        .offer-section {
-            flex-direction: column;
-        }
-        .offer-box {
-            width: 100%;
-
-        }
-        .description{
-          font-size:small;
-        }
       }
 
       /* WHy us */
@@ -555,13 +564,19 @@ color:whitesmoke;
     
         
       }
-      .why_us h1{
+      .why_us h2{
         color:#007bff;
-        text-align:center;
-
-      }
-      .why_us h3{
         text-align: center;
+/*         font-size:15px; */
+/*         font-family: 'Poppins', sans-serif; */
+/*         font-weight: 700; /* Bold */ 
+/*         letter-spacing: 1px; */
+      }
+      .why_us h4{
+        text-align: center;
+/*         font-family:'Poppins', sans-serif; */
+/*         font-size:35px; */
+/*         font-weight:700; */
         color: #ddd;
         
       }
@@ -577,8 +592,8 @@ color:whitesmoke;
         color:rgb(3, 3, 3);
        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
        align-items: center;
-       background:rgb(233, 233, 233);
-        
+    
+       
       }
     
       .details .card:hover{
@@ -589,7 +604,9 @@ color:whitesmoke;
        
     
       }
-   
+      .details .card:hover .circle{
+        background-color: white;
+      }
 
       .details .card img{
         width:50px;
@@ -639,7 +656,7 @@ color:whitesmoke;
 .Online_training {
     max-width: 800px;
     width: 90%;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(255, 254, 254);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -650,6 +667,10 @@ color:whitesmoke;
 .Online_training h3 {
     color: rgb(6, 6, 6);
     margin-bottom: 5px;
+/*     font-size: 1.8rem; */
+/*     font-family:'Poppins', sans-serif; */
+/*     font-size:35px; */
+/*     font-weight:350; */
 }
 
 .Online_training .highlight {
@@ -658,7 +679,7 @@ color:whitesmoke;
 
 /* Button Styling */
 .btn {
-    background-color:rgb(233, 233, 233);
+    background-color: white;
     color: rgb(9, 9, 9);
     padding: 10px 20px;
     font-size: 1rem;
@@ -690,7 +711,7 @@ color:whitesmoke;
     }
 
     .btn {
-        width:70%;
+        width: 100%;
     }
 }
     
@@ -700,8 +721,11 @@ color:whitesmoke;
 
 .mission_vision h1{
    text-align:center;
+/*    font-family:'Poppins', sans-serif; */
+/*    font-size:35px; */
+/*    font-weight:600; */
+/*    letter-spacing: 1px; */
    margin-top: 10px;
-   color: white;
 }
 .tab-container {
     display: flex;
@@ -721,8 +745,8 @@ color:whitesmoke;
 }
 .tab-button.active {
     background-color: #007bff;
-    color: rgb(238, 238, 238);
-    border-color: #2b2b2b;
+    color: rgb(5, 5, 5);
+    border-color: #333;
     
 }
 .tab-button:hover {
@@ -733,7 +757,7 @@ color:whitesmoke;
     display: none;
     padding: 20px;
     margin-top: 20px;
-    background:rgb(233, 233, 233);
+    background: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     max-width:90%;
@@ -783,9 +807,14 @@ color:whitesmoke;
 }
 
 .Courses h2 {
+/*     font-weight: bold; */
     margin-bottom: 20px;
     color: #232323;
     text-transform: uppercase;
+/*     font-family:'Poppins', sans-serif; */
+/*     font-size:30px; */
+/*     font-weight:500; */
+/*     letter-spacing:2px; */
 }
 
 /* Accordion Styling */
@@ -824,7 +853,7 @@ color:whitesmoke;
 
 .accordion-body h4 {
     color:#0099ff;
-    /* font-size: 18px; */
+/*     font-size: 18px; */
     margin-top: 10px;
 }
 
@@ -927,15 +956,15 @@ color:whitesmoke;
 
 /* Our service */
 .services-section {
-  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('photo/BG.jpg') no-repeat center center/cover; */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('#') no-repeat center center/cover;
   padding: 50px 20px;
   text-align: center;
   color: #fff;
 }
 
 .services-section h2 {
-  /* font-size: 32px; */
-  /* font-weight: bold; */
+/*   font-size: 32px; */
+/*   font-weight: bold; */
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -947,8 +976,8 @@ color:whitesmoke;
   border-radius: 8px;
   margin-bottom: 15px;
   text-align: center;
-  /* font-size: 18px; */
-  /* font-weight: bold; */
+/*   font-size: 18px; */
+/*   font-weight: bold; */
   color: #333;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -996,7 +1025,7 @@ color:whitesmoke;
 /* Responsive */
 @media (max-width: 768px) {
     .services-section h2 {
-        /* font-size: 26px; */
+/*         font-size: 26px; */
     }
 
     .service-box {
@@ -1017,33 +1046,31 @@ color:whitesmoke;
 .Enquiries {
     padding: 50px 20px;
     text-align: center;
-    /* background:rgb(56, 95, 255); */
-      background-color:  #135a91;
-      
+    background: #f9f9f9;
 }
 
 .Enquiries-section {
     max-width: 600px;
     margin: auto;
     padding: 25px;
-    background:rgb(233, 233, 233);
+    background: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .Enquiries-section h2 {
-    /* font-size: 28px; */
-    /* font-weight: bold; */
+/*     font-size: 28px; */
+/*     font-weight: bold; */
     margin-bottom: 15px;
     color: #333;
 }
 
 .Enquiries-info h6 {
-    /* font-size: 16px; */
+/*     font-size: 16px; */
     color: #555;
     display: flex;
     align-items: center;
-    /* gap: 10px; */
+    gap: 10px;
     justify-content: center;
     margin: 10px 0;
 }
@@ -1101,7 +1128,7 @@ color:whitesmoke;
 }
 
 .footer h5 {
-  /* font-size: 20px; */
+  font-size: 20px;
   margin-bottom: 15px;
   color:#0099ff;
 }
