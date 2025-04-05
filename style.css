@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, p {
 
 h1 {
   font-weight: 700; /* Bold for emphasis */
-  font-size: 2.5rem;
+  font-size:2rem;
 }
 
 h2 {
@@ -162,7 +162,7 @@ p {
     }
   }
  */
-#heroCarousel .carousel-item {
+  #heroCarousel .carousel-item {
             height: 80vh;
             position: relative;
         }
@@ -173,98 +173,189 @@ p {
         }
         .carousel-caption {
             position: absolute;
-            top: 50%;
+            /* top: 50%; */
             left: 10%;
             transform: translateY(-50%);
             text-align: left;
-/*             background: rgba(0, 0, 0, 0.6); */
-            padding: 15px;
+            /*background: rgba(0, 0, 0, 0.6); */
+            display: 15px;
             border-radius: 10px;
             width: 40%;
             color: white;
-        }
-/*         .carousel-caption h1, .carousel-caption h2 {
-            font-size: 2.5rem;
-            font-weight: bold;
-        }
-        .carousel-caption p {
-            font-size: 1.2rem;
-            font-weight: 300;
-        } */
-        .btn-primary {
-            background-color: #007bff;
-            color: white;
-            padding: 8px 40px;
-            font-size:25px;
-            /* border-radius: 5px; */
-            text-decoration: none;
-            
-        }
-        .btn-primary:hover{
-            background-color:transparent;
-            border:2px solid #007bff;
-            color:whitesmoke;
-        }
-        @media (max-width: 768px) {
-            #heroCarousel .carousel-item {
-                height: 70vh;
-            }
-            .carousel-caption {
-                width: 60%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                text-align: center;
-               
-               
-            }
-/*             .carousel-caption h1, .carousel-caption h2 {
-                font-size: 1.8rem;
-            }
-            .carousel-caption p {
-                font-size: 1rem;
-            } */
-        }
-        @media (max-width: 576px) {
-            #heroCarousel .carousel-item {
-                height: 60vh;
-            }
-            .carousel-caption {
-                width: 80%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                text-align: center;
-            }
-/*             .carousel-caption h1, .carousel-caption h2 {
-                font-size: 1.5rem;
-            }
-            .carousel-caption p {
-                font-size: 0.9rem;
-            } */
-            .btn-primary {
-                font-size: 0.9rem;
-                padding: 8px 16px;
-            }
-            .carousel-caption a{
-                margin-top:10px;
-            }
-        }
-        @media (max-width: 350px) {
-             #heroCarousel .carousel-item {
-                height: 40vh;
-            }
-            .carousel-caption {
-                left: 5%;
-                transform: none;
-                text-align: start;
-                width: 90%;
-            }
-/*             .carousel-caption h1, .carousel-caption h2 {
-                font-size: 1.3rem;
-            }
-            .carousel-caption p {
-                font-size: 0.8rem;
-            } */
-        }
+}
+
+.btn-primary {
+background-color: #007bff;
+color: white;
+padding: 8px 40px;
+font-size:25px;
+text-decoration: none;
+
+}
+.btn-primary:hover{
+background-color:transparent;
+border:2px solid #007bff;
+color:whitesmoke;
+}
+@media (min-width:1024px) and (max-width: 1340px) {
+  #heroCarousel .carousel-item {
+      height:70vh;
+  }
+ 
+  .carousel-caption {
+      width: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding-bottom:40px;
+  
+     
+     
+  }
+
+}
+
+@media (min-width:912px) and (max-width: 1024px) {
+  #heroCarousel .carousel-item {
+    height:70vh;
+}
+.carousel-caption {
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-bottom:60px;
+
+   
+   
+}
+
+}
+
+@media (min-width: 858px) and (max-width: 912px)  {
+  #heroCarousel .carousel-item {
+      height: 50vh;
+  }
+  .carousel-caption {
+      width: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding-bottom:80px;
+  
+     
+     
+  }
+
+}
+@media(min-width:769px) and (max-width: 858px) {
+  #heroCarousel .carousel-item {
+      height: 50vh;
+  }
+  .carousel-caption {
+      width: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding-bottom:80px;
+  
+     
+     
+  }
+
+}
+@media (min-width:640px) and (max-width: 769px) {
+  #heroCarousel .carousel-item {
+      height:70vh;
+  }
+  .carousel-caption {
+      width: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      /* padding-bottom:50px; */
+  
+     
+     
+  }
+  }
+
+ @media (min-width:540px) and (max-width: 640px) {
+#heroCarousel .carousel-item {
+    height:90vh;
+}
+.carousel-caption {
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* padding-bottom:50px; */
+
+   
+   
+}
+}
+
+
+  
+@media (min-width:420px) and (max-width:540px) {
+#heroCarousel .carousel-item {
+    height:60vh;
+}
+.carousel-caption {
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* padding-bottom:80px; */
+
+   
+   
+} 
+}
+@media (min-width:351px) and (max-width:420px) {
+  #heroCarousel .carousel-item {
+    height:80vh;
+}
+.carousel-caption {
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:start;
+    margin-bottom:70px;
+
+   
+   
+} 
+}
+
+
+@media (min-width:320px) and (max-width: 350px) {
+ #heroCarousel .carousel-item {
+    height: 40vh;
+}
+.carousel-caption {
+    left: 5%;
+    transform: none;
+    text-align: start;
+    width: 90%;
+  
+}
+
+}
+@media (min-width:0px) and  (max-width: 320px) {
+ #heroCarousel .carousel-item {
+    height: 50vh;
+}
+.carousel-caption {
+    left: 5%;
+    transform: none;
+    text-align: start;
+    width: 90%;
+  
+}
+
+}
      /* About Section */
 
   #about {
