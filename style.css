@@ -3,7 +3,8 @@ body {
     font-family:'Roboto';
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+/*     background-color: #f8f9fa; */
+    background-color:  #135a91;
     color: #333;
 }
 h1, h2, h3, h4, h5, p {
@@ -726,6 +727,7 @@ color:whitesmoke;
 /*    font-weight:600; */
 /*    letter-spacing: 1px; */
    margin-top: 10px;
+   color:white;
 }
 .tab-container {
     display: flex;
