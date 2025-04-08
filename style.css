@@ -141,7 +141,7 @@ p {
 }
 
   #heroCarousel .carousel-item {
-            height: 80vh;
+            height: 70vh;
             position: relative;
         }
         #heroCarousel .carousel-item img {
@@ -784,6 +784,20 @@ color:whitesmoke;
     color: #232323;
     text-transform: uppercase;
 }
+.tick_box {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 18px;
+  background: #eaf7e0;
+  border-radius: 8px;
+  margin: 5px;
+}
+.tick_box i {
+  color: green;
+  margin-right: 10px;
+}
+
 
 /* Accordion Styling */
 .accordion {
@@ -817,6 +831,9 @@ color:whitesmoke;
     background: #f9f9f9;
     padding: 20px;
     border-radius: 5px;
+     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .accordion-body h4 {
@@ -843,6 +860,15 @@ color:whitesmoke;
     .accordion-button {
         font-size: 18px;
     }
+}
+
+@media (max-width: 600px) {
+  .accordion-body {
+      flex-direction: column;
+  }
+  .tick_box {
+      width: 100%;
+  }
 }
 
 @media (max-width: 576px) {
