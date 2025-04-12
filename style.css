@@ -4,16 +4,7 @@ body {
     font-family: 'Roboto';
     margin: 0;
     padding: 0;
-    /* background-color:#004D40; */
-    /* background-color:#baeffe; */
-    /* background-color:#E3F2FD; */
-    /* background-color:#F0F2F5; */
-      /* background-color: #1a214b; */
-      background-color:  #135a91;
-  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('photo/BG.jpg') no-repeat center center/cover; */
-
-    
-  
+    background-color:  #135a91;
     color: #333;
 }
 
@@ -160,6 +151,9 @@ p {
             border-radius: 10px;
             width: 40%;
             color: white;
+}
+.carousel-caption span{
+  color: #2d1aff;
 }
 
 .btn-primary {
